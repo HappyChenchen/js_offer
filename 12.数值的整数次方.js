@@ -5,29 +5,43 @@ function Power1(base, exponent) {
     return Math.pow(base, exponent);
 }
 
-//快速幂，不是很明白
+
 function Power2(base, exponent) {
-    // write code here
-    var res = 1,
-        n;
-    if (exponent > 0) {
-        // 指数大于0的情况下
-        n = exponent;
-    } else if (exponent < 0) {
-        // 指数小于0的情况下
-        if (!base) throw new Error('分母不能为0');
-        n = -exponent;
-    } else {
-        // 指数等于0的情况下
+    var result = 1;
+    if (exponent === 0) {
         return 1;
     }
-    while (n) {
-        // 也可以用递归做，这里采用了循环
-        if (n & 1)
-        // 当指数为奇数时，包括了1
-            res *= base;
-        base *= base;
-        n >>= 1;
+    for (var i = 0; i < Math.abs(exponent); i++) {
+        result *= base;
     }
-    return exponent > 0 ? res : 1 / res;
+    if (exponent < 0) {
+        result = 1 / result;
+    }
+    return result;
+}
+
+
+function Power3(base, exponent) {
+    if (n < 0) {
+        if (x <= 0) {
+            throw new Error("分母不能小于等于0");
+        } else {
+            if (-n % 2 == 1) {
+                return 1 / (Power(x, -n - 1) * x);
+            } else {
+                var r = 1 / Power(x, -n / 2);
+                return r * r;
+            }
+        }
+    }
+    if (n == 0) {
+        return 1;
+    } else {
+        if (n % 2 == 1) {
+            return Power(x, n - 1) * x;
+        } else {
+            var r = Power(x, n / 2);
+            return r * r;
+        }
+    }
 }

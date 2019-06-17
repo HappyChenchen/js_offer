@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf34a9f6-330b-4dd0-ade3-0ead5fea3332" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12.数值的整数次方.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.调整数组顺序使奇数位于偶数前面.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.链接倒数第K个节点.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15.反转链表.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/16.合并两个排序的链表.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/17.树的子结构.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18.镜像二叉树.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19.顺时针打印矩阵.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20.包含min函数的栈.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21.栈的压入、弹出序列.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/22.从上往下打印二叉树.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/14.链接倒数第K个节点.js" afterPath="$PROJECT_DIR$/14.链接倒数第K个节点.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,31 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="12.数值的整数次方.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12.数值的整数次方.js">
+      <file leaf-file-name="1.二维数组中的查找.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1.二维数组中的查找.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="14.链接倒数第K个节点.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/14.链接倒数第K个节点.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="13.调整数组顺序使奇数位于偶数前面.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13.调整数组顺序使奇数位于偶数前面.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+            <state relative-caret-position="792">
+              <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -59,9 +47,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>，</find>
       <find>let</find>
     </findStrings>
     <replaceStrings>
+      <replace>.</replace>
       <replace>var</replace>
     </replaceStrings>
   </component>
@@ -82,8 +72,17 @@
         <option value="$PROJECT_DIR$/数值的整数次方.js" />
         <option value="$PROJECT_DIR$/12.数值的整数次方.js" />
         <option value="$PROJECT_DIR$/13.链接倒数第K个节点.js" />
-        <option value="$PROJECT_DIR$/14.链接倒数第K个节点.js" />
         <option value="$PROJECT_DIR$/13.调整数组顺序使奇数位于偶数前面.js" />
+        <option value="$PROJECT_DIR$/14.链接倒数第K个节点.js" />
+        <option value="$PROJECT_DIR$/15.反转链表.js" />
+        <option value="$PROJECT_DIR$/16.合并两个排序的链表.js" />
+        <option value="$PROJECT_DIR$/17.树的子结构.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/18.镜像二叉树.js" />
+        <option value="$PROJECT_DIR$/19.顺时针打印矩阵.js" />
+        <option value="$PROJECT_DIR$/包含min函数的栈.js" />
+        <option value="$PROJECT_DIR$/20.栈的压入、弹出序列.js" />
+        <option value="$PROJECT_DIR$/21.从上往下打印二叉树.js" />
       </list>
     </option>
   </component>
@@ -93,7 +92,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -147,20 +146,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.13.调整数组顺序使奇数位于偶数前面.js">
+  <component name="RunManager" selected="Node.js.21.从上往下打印二叉树.js">
     <configuration name="11.二进制中1的个数.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="11.二进制中1的个数.js" working-dir="$PROJECT_DIR$" />
     <configuration name="13.调整数组顺序使奇数位于偶数前面.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="13.调整数组顺序使奇数位于偶数前面.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="21.从上往下打印二叉树.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/22.从上往下打印二叉树.js" working-dir="$PROJECT_DIR$" />
     <configuration name="6.旋转数组的最小数字.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="6.旋转数组的最小数字.js" working-dir="$PROJECT_DIR$" />
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.11.二进制中1的个数.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.6.旋转数组的最小数字.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.13.调整数组顺序使奇数位于偶数前面.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.21.从上往下打印二叉树.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.13.调整数组顺序使奇数位于偶数前面.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.6.旋转数组的最小数字.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.11.二进制中1的个数.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.21.从上往下打印二叉树.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.13.调整数组顺序使奇数位于偶数前面.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.6.旋转数组的最小数字.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.11.二进制中1的个数.js" />
       </list>
     </recent_temporary>
   </component>
@@ -174,15 +176,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560600268569</updated>
-      <workItem from="1560600274436" duration="3091000" />
+      <workItem from="1560600274436" duration="8930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3091000" />
+    <option name="totallyTimeSpent" value="8930000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -220,14 +222,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1.二维数组中的查找.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2.替换空格.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -316,18 +310,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13.调整数组顺序使奇数位于偶数前面.js">
+    <entry file="file://$PROJECT_DIR$/14.链接倒数第K个节点.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        <state relative-caret-position="216">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14.链接倒数第K个节点.js">
+    <entry file="file://$PROJECT_DIR$/13.调整数组顺序使奇数位于偶数前面.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="120">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.反转链表.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16.合并两个排序的链表.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17.树的子结构.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1512">
+            <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18.镜像二叉树.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19.顺时针打印矩阵.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20.包含min函数的栈.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21.栈的压入、弹出序列.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22.从上往下打印二叉树.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.二维数组中的查找.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
           <folding />
         </state>
       </provider>
